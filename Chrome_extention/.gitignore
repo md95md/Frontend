@@ -1,0 +1,9 @@
+.env
+.env.local
+.env.*.local
+.vscode/
+.cache/
+*.tmp
+node_modules/
+.crx
+.pem

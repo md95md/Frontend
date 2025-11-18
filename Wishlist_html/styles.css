@@ -1,0 +1,88 @@
+
+
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(#bdd3df, #ffffff);
+    color: #ffffff;
+    font-style: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.gifts-blocks {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 15px; 
+}
+
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+
+.gift-img {
+    margin: 20px 30px;
+    height: 200px;
+    width: 255px;
+    border: 6px solid #EFB0C9;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-one:hover {
+    background-image: url("images/gift-one.jpg");
+    
+}
+
+#gift-two:hover {
+    background-image: url("images/gift-two.jpg");
+
+}
+
+#gift-three:hover {
+    background-image: url("images/gift-three.jpg");
+}
+
+#gift-four:hover {
+    background-image: url("images/gift-four.jpg");
+}
+
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
